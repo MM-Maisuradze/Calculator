@@ -1,0 +1,44 @@
+body{
+  margin: 0;
+  font-family: "Permanent Marker", cursive;
+  background-color: rgb(171, 229, 233);
+
+}
+.calc{
+  width: 329px;
+  height: 40px;
+  margin-bottom: 15px;
+  font-weight: bolder;
+  font-size: 25px;
+  border: solid 2px black;
+  background-color: rgb(254, 175, 27);
+}
+.main-div{
+  width: 289px;
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+  text-align: center;
+  grid-gap: 10px;
+}
+.main-div button{
+  width: 75px;
+  height: 75px;
+  border: 2px solid;
+  font-weight: bolder;
+  font-size:25px;
+  font-family: "Permanent Marker", cursive;
+  background-color: rgb(254, 175, 27)
+}
+.point{
+    font-size: 25px;
+}
+.clear{
+  background-color: rgb(254, 175, 27);
+  font-weight: bolder;
+  width: 329px;
+  height: 50px;
+  margin-top: 15px;
+  border: solid 2px black;
+  font-family: "Permanent Marker", cursive;
+  font-size: 25px;
+}
